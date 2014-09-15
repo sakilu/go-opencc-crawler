@@ -1,0 +1,4 @@
+goopencc
+========
+
+golang opencc
