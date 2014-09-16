@@ -15,11 +15,17 @@ const (
 
 func Zh2Tw(v string) (string, int) {
 	v = strings.Trim(v, " ")
+	if v == "" {
+		return v, 200
+	}
 	return translate(v, ZH2TW)
 }
 
 func Tw2Zh(v string) (string, int) {
 	v = strings.Trim(v, " ")
+	if v == "" {
+		return v, 200
+	}
 	return translate(v, TW2ZH)
 }
 
