@@ -9,8 +9,8 @@ import (
 )
 
 const (
-	ZH2TW = "zhs2zhtw_p.ini"
-	TW2ZH = "zhtw2zhcn_s.ini"
+	ZH2TW = "s2twp.json"
+	TW2ZH = "tw2sp.json"
 )
 
 func Zh2Tw(v string) (string, int) {
